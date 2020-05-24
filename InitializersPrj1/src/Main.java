@@ -5,10 +5,19 @@ class Sample {
 		// static intializer
 		System.out.println("static initalizer");
 	}
+	
 	{
 		//non-static initalizer
 		System.out.println("non-static initalizer");
 
+	}
+}
+
+class SomeConfigurationProvider {
+	//properties
+	
+	static {
+		//load properties
 	}
 }
 
